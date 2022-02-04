@@ -21,6 +21,7 @@ Trips.init(
         },
         traveller_id: {
             type: DataTypes.INTEGER,
+            unique: false,
             references: {
                 model: 'traveller',
                 key: 'id'
@@ -28,6 +29,7 @@ Trips.init(
         },
         location_id: {
             type: DataTypes.INTEGER,
+            unique: false,
             references: {
                 model: 'location',
                 key: 'id'
@@ -43,4 +45,4 @@ Trips.init(
     }
 );
 
-module.exports = trips;
+module.exports = Trips;

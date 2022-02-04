@@ -25,4 +25,4 @@ Location.init(
     }
 );
 
-module.exports = location;
+module.exports = Location;

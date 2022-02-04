@@ -29,4 +29,4 @@ Traveller.init(
     }
 );
 
-module.exports = traveller;
+module.exports = Traveller;
